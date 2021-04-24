@@ -4,7 +4,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/silverberrytree/cknts6q5n0c2s18nxp67p7ycm',
     center: ([-71.104081, 42.357575]),
-    zoom: 12
+    zoom: 11
 });
 
 async function run() {
