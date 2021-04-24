@@ -55,9 +55,10 @@
 
 <img src='images/readMe2.jpg'>
 
-(https://thewalkingduff.github.io/train-tracker/)
+<a href="https://thewalkingduff.github.io/train-tracker/">BOSTON TRAIN TRACKER</a>
 
-Pulls data from the MBTA V# API to track the subway and commuter trains in the Boston area.
+Pulls data from the MBTA V3 API to track the subway and commuter trains in the Boston area.
+<a href="https://www.mbta.com/developers/v3-api">MBTA V3 API</a>
 
 `thewalkingduff`, `train-tracker`, `@duffManCode`, `bduffy@devduffy.com`, `Boston Train Tracker`
 
