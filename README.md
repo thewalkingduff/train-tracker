@@ -53,8 +53,6 @@
 
 ## About The Project
 
-<img src='images/readMe2.jpg'>
-
 <a href="https://thewalkingduff.github.io/train-tracker/">BOSTON TRAIN TRACKER</a>
 
 Pulls data from the MBTA V3 API to track the subway and commuter trains in the Boston area.
