@@ -1,16 +1,16 @@
 # train-tracker
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[![Forks][forks-shield]][https://github.com/thewalkingduff/train-tracker/network/members]
+[![Stargazers][stars-shield]][https://github.com/thewalkingduff/train-tracker/stargazers]
+[![Issues][issues-shield]][https://github.com/thewalkingduff/train-tracker/issues]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/devduffy/]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://thewalkingduff.github.io/train-tracker/">
-    <img src="images/readMe.jpeg" alt="Logo" width="80" height="80">
+    <img src="images/readMe.jpeg" alt="Logo" width="160" height="160">
   </a>
 
   <h3 align="center">Boston Train Tracker</h3>
@@ -65,7 +65,7 @@
 
 An app that use the MBTA API to track the subway and commuter trains in the Boston area.
 
-`thewalkingduff`, `good-foody`, `@duffManCode`, `bduffy@devduffy.com`, `Good Foody`
+`thewalkingduff`, `train-tracker`, `@duffManCode`, `bduffy@devduffy.com`, `Boston Train Tracker`
 
 ### Built With
 
