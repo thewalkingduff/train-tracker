@@ -1,16 +1,10 @@
 # train-tracker
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://thewalkingduff.github.io/train-tracker/">
-    <img src="images/readMe.jpeg" alt="Logo" width="160" height="160">
+    <img src="images/readMe.jpeg" alt="Logo" width="" height="160">
   </a>
 
   <h3 align="center">Boston Train Tracker</h3>
