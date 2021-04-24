@@ -1,10 +1,10 @@
 # train-tracker
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][https://github.com/thewalkingduff/train-tracker/network/members]
-[![Stargazers][stars-shield]][https://github.com/thewalkingduff/train-tracker/stargazers]
-[![Issues][issues-shield]][https://github.com/thewalkingduff/train-tracker/issues]
+[![Forks][forks-shield]][forks-https://github.com/thewalkingduff/train-tracker/network/members]
+[![Stargazers][stars-shield]][stars-https://github.com/thewalkingduff/train-tracker/stargazers]
+[![Issues][issues-shield]][issues-https://github.com/thewalkingduff/train-tracker/issues]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/devduffy/]
+[![LinkedIn][linkedin-shield]][linkedin-https://www.linkedin.com/in/devduffy/]
 
 <!-- PROJECT LOGO -->
 <br />
