@@ -25,6 +25,8 @@ function addMarker(train) {
     const latitude = train.attributes.latitude
     const routeID = train.relationships.route.data.id
 
+    console.log(train)
+
     var marker = document.createElement('div');
 
     if (routeID === 'Red') {

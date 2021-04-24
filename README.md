@@ -10,7 +10,7 @@
   <h3 align="center">Boston Train Tracker</h3>
 
   <p align="center">
-    An app that tracks subway and commuter trains in the Boston area.
+    An Mapbox app that tracks subway and commuter trains in the Boston area.
     <br />
     <a href="https://thewalkingduff.github.io/train-tracker/"><strong>Explore the docs »</strong></a>
     <br />
