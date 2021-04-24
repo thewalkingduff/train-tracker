@@ -1,0 +1,87 @@
+body { 
+    margin: 0; padding: 0; }
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.marker {
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+/* Train/Subway Lines */
+
+.blue-train {
+    background-image: url('images/blue-train.png');
+}
+.red-train {
+    background-image: url('images/red-train.png');
+}
+.green-train {
+    background-image: url('images/green-train.png');
+}
+.orange-train {
+    background-image: url('images/orange-train.png');
+}
+.commuter-train {
+    background-image: url('images/commuter-train.png');
+}
+
+/* Pop-ups */
+
+.mapboxgl-popup {
+    max-width: 200px;
+  }
+  
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Legend */
+
+.legend {
+    background-color: #fff;
+    border-radius: 3px;
+    bottom: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    }
+     
+    .legend h4 {
+    margin: 0 0 10px;
+    }
+     
+    .legend div span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+    }
+
+    #red-legend {
+        background-color: #DA291C;
+    }
+    #orange-legend {
+        background-color: #ED8B00;
+    }
+    #blue-legend {
+        background-color: #003DA5;
+    }
+    #green-legend {
+        background-color: #00843D;
+    }
+    #commuter-legend {
+        background-color: #B388A5;
+    }
