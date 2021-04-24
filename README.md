@@ -1,10 +1,10 @@
 # train-tracker
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT LOGO --> 
 <br />
 <p align="center">
   <a href="https://thewalkingduff.github.io/train-tracker/">
-    <img src="images/readMe.jpeg" alt="Logo" width="1112" height="706">
+    <img src="images/readMe.jpg" alt="Logo" width="1112" height="706">
   </a>
 
   <h3 align="center">Boston Train Tracker</h3>
@@ -53,7 +53,7 @@
 
 ## About The Project
 
-<img src='images/readMe.jpeg'>
+<img src='images/readMe2.jpg'>
 
 (https://thewalkingduff.github.io/train-tracker/)
 
