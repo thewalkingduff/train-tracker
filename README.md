@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://thewalkingduff.github.io/train-tracker/">
-    <img src="images/readMe.jpg" alt="Logo" width="1112" height="706">
+    <img src="images/readMe.jpg" alt="Logo">
   </a>
 
   <h3 align="center">Boston Train Tracker</h3>
