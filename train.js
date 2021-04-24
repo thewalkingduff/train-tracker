@@ -7,12 +7,11 @@ var map = new mapboxgl.Map({
     zoom: 12
 });
 
-
 async function run() {
-    const locations = await getBusLocations();
+    const locations = await getTrainLocations();
 
-    locations.forEach((bus) => {
-        var marker = addMarker(bus)
+    locations.forEach((train) => {
+        var marker = addMarker(train)
     });
 
     setTimeout(run, 15000);
@@ -21,16 +20,10 @@ async function run() {
 
 var markers = [];
 
-
-
-function addMarker(bus) {
-    const longitude = bus.attributes.longitude
-    const latitude = bus.attributes.latitude
-    const routeID = bus.relationships.route.data.id
-    if (routeID.includes('CR-')) {
-        console.log(bus)
-    }
-
+function addMarker(train) {
+    const longitude = train.attributes.longitude
+    const latitude = train.attributes.latitude
+    const routeID = train.relationships.route.data.id
 
     var marker = document.createElement('div');
 
@@ -46,11 +39,10 @@ function addMarker(bus) {
         marker.className = 'commuter-train marker';
     }
 
-
     new mapboxgl.Marker(marker)
         .setLngLat([longitude, latitude])
         .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-            .setHTML('<h3>' + routeID + '</h3><p>' + bus.attributes.current_status + '</p><p>' + 'Speed: ' + bus.attributes.speed + ' mph' + '</p>'))
+            .setHTML('<h3>' + routeID + '</h3><p>' + train.attributes.current_status + '</p><p>' + 'Speed: ' + train.attributes.speed + ' mph' + '</p>'))
         .addTo(map)
     markers.push(marker);
 };
@@ -61,7 +53,7 @@ function removeMarkers(marker) {
     });
 };
 
-async function getBusLocations() {
+async function getTrainLocations() {
     const url = 'https://api-v3.mbta.com/vehicles';
     const response = await fetch(url);
     const json = await response.json();
